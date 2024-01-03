@@ -146,118 +146,15 @@ body{
     margin-top: 5%;
     font-weight: 500;
 }
-@media (min-width:900px) and (max-width:1311px){
+@media(max-width:1280px){
     .container{
-        min-width: 30%;
+        height: 400px;
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
-    .search-box{
-        min-width: 40%;
-    }
-    i{
-        font-size: 100px;
-        
-    }
-    span{
-        font-size: 20px;
+    .weather-details span{
+        font-size: 1.5rem;
+        row-gap: 50px;
     }
 }
-@media(min-width:600px) and (max-width:799px){
-    .container .search-box{
-        min-width: 70%;
-    }
-    .container{
-        min-height: 60%;
-    }
-    i{
-        font-size: 70px;
-    }
-    .wind .humidity{
-        font-size: 100%;
-    }
-    a{
-        min-width: 3%;
-    }
-    
-}
-@media(min-width:450px) and (max-width:599px){
-    .container .search-box{
-        min-width:80%;
-    }
-    .wind,.humidity{
-        font-size: 100%;
-    }
-    i{
-        font-size: 20px;
-    }
-   
-}
-@media(min-width:200px) and (max-width:449px){
-    .container .search-box{
-        min-width: 100%;
-    }
-    .wind,.humidity{
-        font-size: 10px;
-    }
-}
-
-/* @media (min-width:900px) and (max-width:1173px) {
-    .container .search-box{
-        min-width:40%;
-    }
-     i{
-        font-size: 190%;
-    }
-}
-@media (min-width:600px) and (max-width:899px) {
-    .container .search-box{
-        min-width:50%;
-    }
-    .wind,.humidity{
-        font-size: 120%;
-    }
-     i{
-        font-size: 190%;
-    }
-}
-@media (min-width:450px) and (max-width:599px) {
-    .container .search-box{
-        min-width:65%;
-    }
-    .wind,.humidity{
-        font-size: 120%;
-    }
-    i{
-        font-size: 190%;
-    }
-}
-@media (min-width:200px) and (max-width:449px) {
-    .container .search-box{
-        min-width:100%;
-    }
-    .wind,.humidity{
-        font-size: 100%;
-    }
-    .p{
-        font-size: 100%;
-        text-align: center;
-    }
-    .ft{
-        width: 100%;
-    }
-    
-}
-@media (min-width:10px) and (max-width:199px){
-    .main-container .card{
-        min-width:100%;
-    }
-    .wind,.humidity{
-        font-size: 80%;
-    }
-    .ft p{
-        font-size: 100%;
-        text-align: center;
-    }
-    .ft{
-        width: 100%;
-    }
-} */
