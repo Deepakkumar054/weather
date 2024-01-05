@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
     box-sizing: border-box;
     background:url(images/mountain.jpg);
+    background-repet:none
     overflow-x: hidden;
 }
 
